@@ -587,3 +587,35 @@
         align-items: flex-start;
     }
 }
+.developer-info {
+    text-align: center;
+    margin-top: 22px;
+    padding: 15px;
+    border: 1px solid var(--line);
+    border-radius: 13px;
+    background: rgba(19,25,46,.65);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.developer-info span {
+    color: var(--muted);
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+.developer-info strong {
+    font: 700 16px Manrope;
+    color: var(--cyan);
+}
+
+.developer-info a {
+    color: var(--green);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.developer-info a:hover {
+    text-decoration: underline;
+}
